@@ -1,5 +1,3 @@
-
-
 body{
     display: grid;
     place-items: center;
@@ -31,8 +29,25 @@ section:nth-of-type(3){
     height: 200px;
 }
 
+a{
+    border: 3px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+a:hover{
+    background-color: yellowgreen;
+}
+
+a:active{
+    background-color: rgb(137, 44, 165);
+}
+
 a>img{
-    width: 24px;
+    height: 100%;
+    width: 100%;
 }
 
 #icons{

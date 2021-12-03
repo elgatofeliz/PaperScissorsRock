@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lev3_9_projekt_js-vertiefung_rock-paper-scissors</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <main>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <form action="">
+            <section>
+                <p>how many rounds?</p>
+                <article>
+                    <div>
+                        <input type="radio" name="rounds" id="5" value="5">
+                        <label for="5">5</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="rounds" id="10" value="10">
+                        <label for="10">10</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="rounds" id="15" value="15">
+                        <label for="15">15</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="rounds" id="20" value="20">
+                        <label for="20">20</label>
+                    </div>
+                    <h2 id="roundNr">0/0</h2>
+                </article>
+            </section>
+            <section>
+                <h2 id="userScore">User : 0</h2>
+                <h2 id="compScore">Computer : 0</h2>
+                <h2 id="qwertScore">Qwert : 0</h2>
+            </section>
+            <section>
+                <h2 id="roundScore">Let's Play</h2>
+                <article id="icons">
+                    <a onclick="play(Scissors)"><img src="assets/img/scissor-tool.png"></a>
+                    <a onclick="play(Rock)"><img src="assets/img/landslide.png"></a>
+                    <a onclick="play(Paper)" id="paper"><img src="assets/img/toilet-paper.png"></a>
+                </article>
+                <p>MAKE YOUR MOVE</p>
+                <input type="button" value="Reload" onClick="window.location.reload(true)">
+            </section>
+        </form>
+    </main>
+    <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
+            href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
